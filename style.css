@@ -40,8 +40,6 @@ html, body {
   #endGameButton{
     color: red;
     font-size: 50px;
-  }
-
     
   }
   img{
@@ -59,7 +57,10 @@ html, body {
     background-color: red;
   }
    
-
+  #endgamebutton{
+    text-align: center;
+    justify-content: center;
+  }
 
   .rpsButton:active{
     box-sizing: border-box;
