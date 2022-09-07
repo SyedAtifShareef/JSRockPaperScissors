@@ -72,13 +72,12 @@ function showResult(score, playerChoice, computerChoice) {
 
   }
   else{
-    
+    resultDiv.innerText="You Win!!"
 
   }
   handsDiv.innerText=`You:${playerChoice} vs Computer:${computerChoice}`
   playerScoreDiv.innerText=`${scoresTotal['playerScore']} is your score`
   computerScoreDiv.innerText=`${scoresTotal['computerScore']} is Computer Score`
-  resultDiv.innerText="You Won"
 }
 
 // ** Calculate who won and show it on the screen **
